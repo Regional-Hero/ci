@@ -1,0 +1,10 @@
+:root {
+    --primary-color: rgb(94, 179, 228);
+    --secondary-color: rgb(230, 47, 57);
+    --primary-font: 'Navigo';
+    --secondary-font: 'Aktiv Grotesk Corp';
+}
+
+body {
+    font-family: var(--primary-font)
+}
