@@ -5,6 +5,18 @@
     --secondary-font: 'Aktiv Grotesk Corp';
 }
 
+@font-face {
+    font-family: 'Navigo';
+    src: url('/public/fonts/Navigo/Navigo-Regular.eot');
+    src: local('Navigo Regular'), local('Navigo-Regular'),
+        url('/public/fonts/Navigo/Navigo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/public/fonts/Navigo/Navigo-Regular.woff2') format('woff2'),
+        url('/public/fonts/Navigo/Navigo-Regular.woff') format('woff'),
+        url('/public/fonts/Navigo/Navigo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: var(--primary-font)
 }
