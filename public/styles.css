@@ -1,10 +1,15 @@
 :root {
-    --primary-font: 'Navigo';
-    --secondary-font: 'Aktiv Grotesk Corp';
+    --headlines-font: 'Navigo';
+    --text-font: 'Aktiv Grotesk Corp';
 }
 
 body {
-    font-family: var(--primary-font)
+    font-family: var(--text-font)
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: var(--headlines-font)
 }
 
 .regionalhero {
@@ -19,7 +24,7 @@ body {
 
 .helfenberlin {
     --primary-color: #E95E57;
-    --secondary-color: rgb(94, 179, 228);
+    --secondary-color: #C7B3D6;
 }
 
 .mingacard {
