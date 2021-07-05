@@ -15,26 +15,31 @@ h1, h2, h3, h4, h5, h6
 .regionalhero {
     --primary-color: rgb(94, 179, 228);
     --secondary-color: rgb(230, 47, 57);
+    --header-background: rgb(255, 255, 255);
 }
 
 .bcard {
     --primary-color: #EA5956;
     --secondary-color: #C7B3D6;
+    --header-background: var(--primary-color);
 }
 
 .helfenberlin {
     --primary-color: #E95E57;
     --secondary-color: #C7B3D6;
+    --header-background: var(--primary-color);
 }
 
 .mingacard {
     --primary-color: #6FABDF;
     --secondary-color: #E85C76;
+    --header-background: var(--primary-color);
 }
 
 .helfenmuenchen {
     --primary-color: #6FABDF;
     --secondary-color: #E85C76;
+    --header-background: var(--primary-color);
 }
 
 @font-face {
