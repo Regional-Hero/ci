@@ -1,0 +1,39 @@
+.paymentSeparator {
+  border-top: 1px solid lightgray;
+}
+
+.paymentMethods {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.paymentLine {
+  height: 65px;
+  cursor: pointer;
+}
+
+.paymentRadio {
+  display:none;
+}
+
+.paymentLogo {
+  vertical-align: middle;
+  margin: 4px;
+  filter: grayscale(100%) brightness(50%);
+}
+
+.paymentLogo:hover {
+  filter: grayscale(70%) brightness(70%);
+}
+
+.paymentRadio:checked + img {
+  filter: none;
+}
+
+.paymentLogo:focus + img {
+  filter: grayscale(70%) brightness(70%);
+}
+
+.paymentMethodBlock {
+  overflow: hidden;
+}

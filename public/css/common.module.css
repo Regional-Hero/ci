@@ -1,0 +1,93 @@
+.submitButton {
+    margin: auto;
+    width: 200px;
+}
+
+.labelEnhanced {
+    margin: 19px 0;
+    padding-right: 12px;
+    text-align: left;
+    color: #666;
+    font-size: 90%;
+}
+
+.radiogroup {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .radiogroup {
+        display: block;
+    }
+}
+
+.radiogrouplabel {
+    padding-right: 12px;
+    vertical-align: text-bottom;
+}
+
+.radioinput {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+.customValueInput {
+    border: 1px solid #ddd;
+    width: 52px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    vertical-align: text-bottom;
+    color: #333333;
+}
+
+.labelEuroSign {
+    vertical-align: text-bottom;
+    height: 30px;
+    font-size: 1em;
+}
+
+.infoblock {
+    margin: 1em 0;
+    padding: 12px;
+    background-color: #eee;
+    border-radius: 12px;
+}
+
+.total {
+    position: relative;
+    height: 8em;
+    display: inline;
+}
+
+.labelTitle {
+    margin: 19px 0;
+    padding-right: 12px;
+    text-align: left;
+    color: #666;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+.errorMessage {
+    background-color: #fce4e4;
+    border: 1px solid #fcc2c3;
+    padding: 1px 3px;
+    display: none;
+}
+
+.error {
+    display: block;
+}
+
+.errorLabel {
+    color: #cc0033;
+}
+
+.errorInputField {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+    outline: none;
+}
