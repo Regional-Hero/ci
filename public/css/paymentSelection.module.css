@@ -19,7 +19,7 @@
 .paymentLogo {
   vertical-align: middle;
   margin: 4px;
-  filter: grayscale(100%) brightness(50%);
+  filter: grayscale(100%) brightness(100%);
 }
 
 .paymentLogo:hover {
