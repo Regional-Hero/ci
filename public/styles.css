@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6
     --header-background: var(--primary-color);
 }
 
+.grimmscheck {
+    --primary-color: #BCCF03;
+    --secondary-color: #BC3F45;
+    --header-background: var(--primary-color);
+}
+
 @font-face {
     font-family: 'Navigo';
     src: url('/public/fonts/Navigo/Navigo-ExtraLight.eot');
