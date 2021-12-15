@@ -35,26 +35,26 @@ export class PaymentSelection extends React.Component { // eslint-disable-line n
     const paymentMethods = [
       <div key='sofort' className={styles.paymentLine} onClick={() => this.props.setPaymentMethod('sofort')}>
         <input className={styles.paymentRadio} type="radio" id="sofortbanking" name="paymentMethod" value="sofort" checked={this.props.paymentMethod === 'sofort'} onChange={() => this.props.setPaymentMethod('sofort')} />
-        <img className={styles.paymentLogo} height="53" src="/images/paymentSelection/sofort.svg" alt="SOFORT Überweisung" title="SOFORT Überweisung" />
+        <img className={styles.paymentLogo} height="45" src="/images/paymentSelection/sofort.svg" alt="SOFORT Überweisung" title="SOFORT Überweisung" />
       </div>,
       <div key='giropay' className={styles.paymentLine} onClick={() => this.props.setPaymentMethod('giropay')}>
         <input className={styles.paymentRadio} type="radio" id="giropay" name="paymentMethod" value="giropay" checked={this.props.paymentMethod === 'giropay'} onChange={() => this.props.setPaymentMethod('giropay')} />
-        <img className={styles.paymentLogo} height="53" src="/images/paymentSelection/giropay.svg" alt="Giropay" title="Giropay" />
+        <img className={styles.paymentLogo} height="45" src="/images/paymentSelection/giropay.svg" alt="Giropay" title="Giropay" />
       </div>,
       <div key='creditcard' className={styles.paymentLine} onClick={() => this.props.setPaymentMethod('creditcard')}>
         <input className={styles.paymentRadio} type="radio" id="creditcard" name="paymentMethod" value="creditcard" checked={this.props.paymentMethod === 'creditcard'} onChange={() => this.props.setPaymentMethod('creditcard')} />
-        <img className={styles.paymentLogo} height="53" src="/images/paymentSelection/creditcard.svg" alt="Kreditkarte" title="Kreditkarte" />
+        <img className={styles.paymentLogo} height="45" src="/images/paymentSelection/creditcard.svg" alt="Kreditkarte" title="Kreditkarte" />
       </div>,
       <div key='paypal' className={styles.paymentLine} onClick={() => this.props.setPaymentMethod('paypal')}>
         <input className={styles.paymentRadio} type="radio" id="paypal" name="paymentMethod" value="paypal" checked={this.props.paymentMethod === 'paypal'} onChange={() => this.props.setPaymentMethod('paypal')} />
-        <img className={styles.paymentLogo} height="53" src="/images/paymentSelection/paypal.svg" alt="PayPal" title="PayPal" />
+        <img className={styles.paymentLogo} height="45" src="/images/paymentSelection/paypal.svg" alt="PayPal" title="PayPal" />
       </div>,
     ];
 
     if (window.ApplePaySession) {
       paymentMethods.push(<div key='applepay' className={styles.paymentLine} onClick={() => this.props.setPaymentMethod('applepay')}>
         <input className={styles.paymentRadio} type="radio" id="applepay" name="paymentMethod" value="applepay" checked={this.props.paymentMethod === 'applepay'} onChange={() => this.props.setPaymentMethod('applepay')} />
-        <img className={styles.paymentLogo} height="53" src="/images/paymentSelection/applepay.svg" alt="Apple Pay" title="Apple Pay" />
+        <img className={styles.paymentLogo} height="45" src="/images/paymentSelection/applepay.svg" alt="Apple Pay" title="Apple Pay" />
       </div>);
     }
 

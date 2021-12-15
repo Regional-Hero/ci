@@ -19,11 +19,11 @@
 .paymentLogo {
   vertical-align: middle;
   margin: 4px;
-  filter: grayscale(100%) brightness(100%);
+  filter: grayscale(100%) opacity(40%);
 }
 
 .paymentLogo:hover {
-  filter: grayscale(70%) brightness(70%);
+  filter: grayscale(70%) opacity(70%);
 }
 
 .paymentRadio:checked + img {
